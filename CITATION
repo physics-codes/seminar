@@ -1,0 +1,36 @@
+To reference this seminar in publications, please cite both of the following:
+
+
+Huff, Kathryn D., and Anthony M. Scopatz. 2015. Seminar on Effective Computation in the Physical Sciences: A Field Course on Research in Python. 1st ed. Vol. 1. 1 vols. Seminar on Effective Computation in the Physical Sciences 1. GitHub: GitHub. http://github.com/physics-codes/seminar.
+
+Scopatz, Anthony, and Kathryn D. Huff. 2015. Effective Computation in Physics. 1 edition. S.l.: O’Reilly Media.
+
+The bib entries for both are:
+
+@book{scopatz_effective_2015,
+        address = {S.l.},
+        edition = {1 edition},
+        title = {Effective {Computation} in {Physics}},
+        isbn = {9781491901533},
+        abstract = {Effective Computation in Physics is a handy guide to the types of problems you run into with computational physics—such as version control, bash scripts, object orientation, large databases, and parallel machines. The authors provide detailed scientific computing motivations, clear and concise tutorials, and references to further information about each of the topics presented.This book fills the existing training gap for students and scientists who conduct physics in a world where simulations have replaced desktop experiments and sophisticated data traversing algorithms have replaced pen and paper analysis.Provides a central source that ties various pieces of computational physics togetherContains coverage of the Python programming language aimed toward physicistsHelps you properly analyze and compellingly visualize your dataIncludes chapters on hot topics like NumPy and HDF5},
+        language = {English},
+        publisher = {O'Reilly Media},
+        author = {Scopatz, Anthony and Huff, Kathryn D.},
+        month = may,
+        year = {2015}
+}
+
+@book{huff_seminar_2015,
+        address = {GitHub},
+        edition = {1},
+        series = {Seminar on {Effective} {Computation} in the {Physical} {Sciences}},
+        title = {Seminar on {Effective} {Computation} in the {Physical} {Sciences}: {A} {Field} {Course} on {Research} in {Python}},
+        volume = {1},
+        shorttitle = {Seminar on {Effective} {Computation} in the {Physical} {Sciences}},
+        url = {http://github.com/physics-codes/seminar},
+        number = {1},
+        publisher = {GitHub},
+        author = {Huff, Kathryn D. and Scopatz, Anthony M.},
+        year = {2015},
+        note = {http://github.com/physics-codes/seminar}
+}
