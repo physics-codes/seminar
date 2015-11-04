@@ -9,6 +9,7 @@
  * #42474c <- also grey
  * #c2c7cc <-light grey
  * #f35858 <- salmon
+ * #B73F98 <- o'reilly pink
  */
 
 @font-face {
@@ -68,7 +69,7 @@ div.text_cell_render{
     font-weight: 200;    
     font-size: 50pt;
     line-height: 100%;
-    color:#f35858;
+    color:#B73F98;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
     display: block;
@@ -103,7 +104,7 @@ div.text_cell_render{
     font-family: "Slabo 27px", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 16pt;
-    color: #f35858;
+    color: #B73F98;
     font-style: italic;
     margin-bottom: .5em;
     margin-top: 0.5em;
