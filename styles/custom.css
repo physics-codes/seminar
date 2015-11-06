@@ -10,6 +10,8 @@
  * #c2c7cc <-light grey
  * #f35858 <- salmon
  * #B73F98 <- o'reilly pink
+ * #D48CC1 <- lighter oreilly pink
+ * #AA709A <- eggplant
  */
 
 @font-face {
@@ -69,7 +71,7 @@ div.text_cell_render{
     font-weight: 200;    
     font-size: 50pt;
     line-height: 100%;
-    color:#B73F98;
+    color:#D48CC1;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
     display: block;
@@ -100,14 +102,15 @@ div.text_cell_render{
     font-style: regular;
 }
 
-.text_cell_render h5 {  /*Use this for small titles*/
+.text_cell_render h5 {  /*Use this for Exercises*/
     font-family: "Slabo 27px", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 16pt;
-    color: #B73F98;
-    font-style: italic;
-    margin-bottom: .5em;
-    margin-top: 0.5em;
+    font-style:regular;
+    font-weight: 400;    
+    font-size: 30pt;
+    line-height: 100%;
+    color:#AA709A;
+    margin-bottom: 1px;
+    margin-top: 10px;
     display: block;
 }
 
@@ -120,6 +123,17 @@ div.text_cell_render{
     margin-bottom: 1px;
     margin-top: 1px;
 }
+
+.text_cell_render h6 { /*use this for copyright note*/
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 300;
+    font-size: 9pt;
+    line-height: 100%;
+    color: grey;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
 
     .CodeMirror{
             font-family: "Source Code Pro";
